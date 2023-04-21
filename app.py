@@ -20,7 +20,7 @@ if location1 and location2:
         
         # Calculate the fare based on the distance
         fare = distance * 10  # assuming a fare of Rs. 10 per km
-        st.write(f"Fare: Rs. {fare:.2f}")
+        st.write(f"Fare: {fare:.2f}")
         
         # Draw a line between the two points on a map
         line = LineString([point1, point2])
