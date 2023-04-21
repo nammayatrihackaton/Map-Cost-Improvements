@@ -26,4 +26,4 @@ if location1 and location2:
         line = LineString([point1, point2])
         st.map(line)
     except:
-        #st.error("Invalid location entered.")
+        # st.error("Invalid location entered.")
