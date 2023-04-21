@@ -25,5 +25,5 @@ if location1 and location2:
         # Draw a line between the two points on a map
         line = LineString([point1, point2])
         st.map(line)
-    except:
-        st.error("Invalid location entered.")
+    #except:
+        #st.error("Invalid location entered.")
