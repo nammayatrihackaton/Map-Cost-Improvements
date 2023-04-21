@@ -15,7 +15,7 @@ if location1 and location2:
         point2 = Point(geolocator.geocode(location2).point[::-1])
         
         # Calculate the distance between the two points using the Haversine formula
-        distance = point1.distance(point2) # in km
+        distance = point1.distance(point2)*1000 # in km
         st.write(f"Distance: {distance:.2f} km")
         
         # Calculate the fare based on the distance
